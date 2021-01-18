@@ -3,14 +3,25 @@ import logo from './logo.svg';
 import './App.css';
 import { useDispatch } from 'react-redux';
 import { useIntl } from 'react-intl';
+import styled from 'styled-components';
+
+const Header = styled.header`
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+`;
 
 function App() {
-  const dispatch = useDispatch();
   const { formatMessage: t } = useIntl();
 
   return (
     <div className="App">
-      <header className="App-header">
+      <Header>
         <img src={logo} className="App-logo" alt="logo" />
         <p>{t({ id: 'app.common.next' })}</p>
         <p>
@@ -24,7 +35,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </Header>
     </div>
   );
 }

@@ -10,13 +10,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Connected React Router](https://github.com/supasate/connected-react-router)
 - [React Intl Redux](https://github.com/ratson/react-intl-redux)
 - [React Intl](https://formatjs.io/docs/getting-started/installation/)
+- [Material UI](https://material-ui.com/es/)
+- [Styled Components](https://styled-components.com/)
 
 ## Folder Structure
- - api - Folder that contain service call.
- - components - Folder that contain stateles components in the aplication
- - features - Folder that contain the feature of application, statefull components
- - intl - Folder related to internacionalization
- - store - Folder that contain store configuration and redux integration 
+ - api: Folder that contain service call.
+ - components: Folder that contain stateles components in the aplication
+ - features: Folder that contain the feature of application, statefull components
+ - intl: Folder related to internacionalization
+ - store: Folder that contain store configuration and redux integration 
 
 ## Available Scripts
 
