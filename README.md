@@ -12,7 +12,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [React Intl](https://formatjs.io/docs/getting-started/installation/)
 
 ## Folder Structure
- -- 
+ - api - Folder that contain service call.
+ - components - Folder that contain stateles components in the aplication
+ - features - Folder that contain the feature of application, statefull components
+ - intl - Folder related to internacionalization
+ - store - Folder that contain store configuration and redux integration 
 
 ## Available Scripts
 
